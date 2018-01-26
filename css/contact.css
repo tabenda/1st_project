@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: opx;
+}
+.header{
+    width: 100%;
+    background-color: deepskyblue;
+    min-height: 100px;
+}
+.content_wrapper{}
+.sidebar{
+    width: 25%;
+    background-color: bisque;
+    height: 750px;
+    float: left;
+    
+}
+.content{
+    width: 75%;
+    background-color: aliceblue;
+    height: 750px;
+    float: right;
+}
+.footer{
+    width: 100%;
+    background-color:aqua;
+    min-height: 150px;
+    clear: both;
+}

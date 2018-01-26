@@ -1,0 +1,15 @@
+body{
+    background-color: darkturquoise;
+}
+h2{
+    font-size: 30px;
+    color: azure;
+    text-align: center;
+}
+p{
+    color: aliceblue;
+}
+table{
+    text-align: center;
+    color: beige;
+}

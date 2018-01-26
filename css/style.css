@@ -1,0 +1,66 @@
+.box1{
+    background-color: aliceblue;
+    min-height:50px;
+    width:932px;
+    margin: 0px auto;
+    border-radius: 5px;
+   
+}
+.box1 ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.box1 ul li{
+    float: left;
+    position: relative;
+}
+.box1 ul li a{
+    color:deepskyblue;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    padding: 13px 40px;
+    transition: 0.5s;
+    transform: scale(1.1);
+   
+}
+.box1 ul li a:hover{
+    background-color: bisque;
+    color: darkslateblue;
+}
+.box1 ul li ul{
+    position: absolute;
+    background-color: aliceblue;
+    width: 240px;
+    left:-999999px;
+    
+}
+.box1 ul li ul li{
+    clear: both;
+}
+.box1 ul li:hover ul{
+    left:0
+}
+.box1 ul li ul li a{
+    display: block;
+    width: 160px;
+    padding: 20px 40px;
+    text-transform: lowercase;
+}
+.box1 ul li ul li a:hover{}
+
+body {
+    background-color:darkturquoise;
+    color: aliceblue;
+}
+h1{
+    color: floralwhite;
+    font-size: 50px;
+    text-align: center;
+}
+p{
+    
+}
